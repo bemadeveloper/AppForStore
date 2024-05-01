@@ -17,6 +17,10 @@
 		D7AC939D2BDFED9B00B7ECBB /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC939C2BDFED9B00B7ECBB /* ProductCard.swift */; };
 		D7AC939F2BDFEDBD00B7ECBB /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC939E2BDFEDBD00B7ECBB /* CartView.swift */; };
 		D7AC93A12BDFEE0200B7ECBB /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC93A02BDFEE0200B7ECBB /* CartManager.swift */; };
+		D7AC93A32BDFF14D00B7ECBB /* EditProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC93A22BDFF14D00B7ECBB /* EditProductView.swift */; };
+		D7AC93A52BE0CBBE00B7ECBB /* DetailProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC93A42BE0CBBE00B7ECBB /* DetailProduct.swift */; };
+		D7AC93A72BE10C1600B7ECBB /* EditManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC93A62BE10C1600B7ECBB /* EditManager.swift */; };
+		D7AC93A92BE11F5600B7ECBB /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AC93A82BE11F5600B7ECBB /* EditButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		D7AC939C2BDFED9B00B7ECBB /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		D7AC939E2BDFEDBD00B7ECBB /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		D7AC93A02BDFEE0200B7ECBB /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		D7AC93A22BDFF14D00B7ECBB /* EditProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProductView.swift; sourceTree = "<group>"; };
+		D7AC93A42BE0CBBE00B7ECBB /* DetailProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProduct.swift; sourceTree = "<group>"; };
+		D7AC93A62BE10C1600B7ECBB /* EditManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditManager.swift; sourceTree = "<group>"; };
+		D7AC93A82BE11F5600B7ECBB /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 				D7AC93892BDFEC1E00B7ECBB /* Assets.xcassets */,
 				D7AC938B2BDFEC1E00B7ECBB /* Preview Content */,
 				D7AC93A02BDFEE0200B7ECBB /* CartManager.swift */,
+				D7AC93A62BE10C1600B7ECBB /* EditManager.swift */,
 			);
 			path = AppForStore;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				D7AC93982BDFED5D00B7ECBB /* ProductRow.swift */,
 				D7AC939A2BDFED7D00B7ECBB /* CartButton.swift */,
 				D7AC939C2BDFED9B00B7ECBB /* ProductCard.swift */,
+				D7AC93A82BE11F5600B7ECBB /* EditButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -105,6 +115,8 @@
 			children = (
 				D7AC93872BDFEC1C00B7ECBB /* ContentView.swift */,
 				D7AC939E2BDFEDBD00B7ECBB /* CartView.swift */,
+				D7AC93A22BDFF14D00B7ECBB /* EditProductView.swift */,
+				D7AC93A42BE0CBBE00B7ECBB /* DetailProduct.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,12 +192,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AC93992BDFED5D00B7ECBB /* ProductRow.swift in Sources */,
+				D7AC93A92BE11F5600B7ECBB /* EditButton.swift in Sources */,
 				D7AC93A12BDFEE0200B7ECBB /* CartManager.swift in Sources */,
 				D7AC939F2BDFEDBD00B7ECBB /* CartView.swift in Sources */,
+				D7AC93A32BDFF14D00B7ECBB /* EditProductView.swift in Sources */,
 				D7AC93882BDFEC1C00B7ECBB /* ContentView.swift in Sources */,
 				D7AC93862BDFEC1C00B7ECBB /* AppForStoreApp.swift in Sources */,
+				D7AC93A72BE10C1600B7ECBB /* EditManager.swift in Sources */,
 				D7AC93972BDFED1A00B7ECBB /* Product.swift in Sources */,
 				D7AC939B2BDFED7D00B7ECBB /* CartButton.swift in Sources */,
+				D7AC93A52BE0CBBE00B7ECBB /* DetailProduct.swift in Sources */,
 				D7AC939D2BDFED9B00B7ECBB /* ProductCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
